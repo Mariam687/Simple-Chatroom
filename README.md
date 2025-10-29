@@ -53,12 +53,9 @@ go run ./client
 | **`Ctrl+C` (Server)** | Server gracefully shuts down the listener. All active clients will automatically attempt to reconnect. |
 | **`/history`** | Requests the full chat history from the server without sending a new message. |
 
-## 🎥 Demo Video (Link)
+## 📺 Demo
 
-Please click the link below to view or download the demonstration.
+A short demonstration of the client-server interaction and the graceful reconnection feature.
 
-[Click here to view the Chat App Demo Video](assets/chat_demo.mp4)
-
----
-
+![Demo of the Go RPC Chat Application](assets/chat_demo.gif)
 
